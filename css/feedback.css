@@ -1,0 +1,116 @@
+* {
+  min-height: 0;
+  box-sizing: border-box;
+  min-width: 0; }
+
+body {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  background: #fff;
+  margin: 0;
+  font-weight: 400;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+span {
+  color: #FF941C; }
+
+.container {
+  max-width: 1600px;
+  padding-top: 100px;
+  z-index: 2;
+  margin: 0 auto; }
+
+.feedback {
+  display: flex;
+  justify-content: center; }
+  .feedback .feedback_inner {
+    border: 1px solid #FF941C;
+    border-radius: 28px;
+    padding: 43px 80px 53px 36px; }
+
+.feedback_top {
+  display: flex;
+  justify-content: space-between; }
+
+.feedback_title {
+  font-size: 30px;
+  color: #FF941C; }
+
+.sub_title_feedback {
+  padding-top: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  width: 430px; }
+
+.content_form {
+  display: flex;
+  flex-direction: column; }
+
+input {
+  padding: 14px 0px 14px 36px;
+  width: 415px;
+  margin-top: 20px;
+  border: 1px solid #FF941C;
+  border-radius: 42px;
+  font-size: 18px; }
+
+input:active {
+  border: 1px solid #FF941C; }
+
+textarea {
+  margin-top: 20px;
+  border: 1px solid #FF941C;
+  font-size: 18px;
+  padding: 14px 0px 14px 36px;
+  width: 415px;
+  border-radius: 20px; }
+
+textarea:active {
+  border: 1px solid #FF941C; }
+
+.href_btn_feedback {
+  background-color: #FF941C;
+  color: #fff;
+  border-radius: 52px;
+  font-size: 18px;
+  padding: 16px 67px; }
+
+.feedback_exit {
+  cursor: pointer;
+  position: relative;
+  width: 30px;
+  height: 20px;
+  display: block;
+  top: 19px;
+  z-index: 6; }
+
+.feedback_exit::before,
+.feedback_exit::after {
+  content: '';
+  background-color: #E7742E;
+  height: 3px;
+  position: absolute;
+  width: 100%;
+  border-radius: 6px;
+  transition: all 0.3s;
+  left: 0; }
+
+.feedback_exit:before {
+  transform: rotate(45deg); }
+
+.feedback_exit:after {
+  transform: rotate(-45deg); }
+
+.btn_feedback {
+  margin-top: 36px; }
+
+/*# sourceMappingURL=feedback.css.map */
