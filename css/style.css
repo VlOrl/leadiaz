@@ -1,0 +1,399 @@
+* {
+  min-height: 0;
+  box-sizing: border-box;
+  min-width: 0; }
+
+body {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  background: #fff;
+  margin: 0;
+  font-weight: 400;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+.container {
+  max-width: 1600px;
+  padding: 20px;
+  z-index: 2;
+  margin: 0 auto; }
+
+.header .header_inner {
+  display: flex;
+  justify-content: space-between; }
+  .header .header_inner .list_menu {
+    display: flex; }
+    .header .header_inner .list_menu .link_menu {
+      padding-left: 37px;
+      font-weight: 700; }
+      .header .header_inner .list_menu .link_menu .href_link_menu {
+        color: #000;
+        transition: .3s; }
+      .header .header_inner .list_menu .link_menu .href_link_menu:hover {
+        color: #FF941C; }
+  .header .header_inner .btn_call {
+    margin-top: 14px; }
+
+.href_btn_call {
+  color: #fff;
+  background-color: #FF941C;
+  padding: 12px 23px;
+  font-weight: 700;
+  border-radius: 31px; }
+
+.yellow_span {
+  color: #FF941C; }
+
+.main {
+  padding-top: 50px; }
+  .main .main_inner {
+    display: flex; }
+    .main .main_inner .left_block_main {
+      padding-top: 140px; }
+      .main .main_inner .left_block_main .main_title {
+        font-size: 58px;
+        font-weight: 700;
+        padding-top: 20px;
+        max-width: 570px; }
+      .main .main_inner .left_block_main .sub_title_main {
+        padding-top: 25px;
+        font-size: 24px;
+        max-width: 570px; }
+      .main .main_inner .left_block_main .btn_call {
+        margin-top: 50px; }
+    .main .main_inner .right_block_main {
+      padding-left: 170px; }
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 40px; }
+
+.our_products .our_inner .content_our {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .our_products .our_inner .content_our .block_our {
+    display: flex;
+    margin: 20px 0px;
+    border: 1px solid #FF941C;
+    padding: 27px;
+    border-radius: 30px;
+    width: 27%; }
+    .our_products .our_inner .content_our .block_our .text_content_block_our {
+      padding-left: 25px; }
+      .our_products .our_inner .content_our .block_our .text_content_block_our .title_block_our {
+        font-weight: 700;
+        padding-bottom: 10px; }
+      .our_products .our_inner .content_our .block_our .text_content_block_our .text_block_our {
+        max-width: 253px; }
+
+.price {
+  padding-bottom: 40px; }
+  .price .content_price {
+    display: flex;
+    justify-content: space-between; }
+    .price .content_price .block_price {
+      padding: 30px 88px;
+      border: 1px solid #FF941C;
+      border-radius: 30px;
+      text-align: center; }
+      .price .content_price .block_price .title_number_price {
+        color: #FF941C;
+        font-weight: 700;
+        font-size: 40px;
+        padding: 20px 20px;
+        border: 5px solid #FF941C;
+        border-radius: 50%;
+        margin-left: 50px;
+        width: 100px; }
+      .price .content_price .block_price .text_title_price {
+        color: #000;
+        padding: 25px 0px;
+        font-size: 25px;
+        font-weight: 700; }
+      .price .content_price .block_price .services_text_price {
+        color: #FF941C;
+        padding-bottom: 15px;
+        font-size: 20px;
+        font-weight: 700; }
+      .price .content_price .block_price .btn_block_price {
+        margin-top: 33px; }
+      .price .content_price .block_price .href_btn_block_price {
+        color: #fff;
+        font-weight: 500;
+        background-color: #FF941C;
+        font-size: 18px;
+        padding: 16px 18px;
+        border-radius: 52px; }
+
+.question .question_inner .content_question {
+  display: flex;
+  flex-direction: column; }
+  .question .question_inner .content_question .block_question {
+    padding-top: 50px; }
+    .question .question_inner .content_question .block_question .text_question {
+      font-weight: 300;
+      cursor: pointer;
+      font-size: 25px; }
+    .question .question_inner .content_question .block_question .plus_question {
+      cursor: pointer; }
+    .question .question_inner .content_question .block_question .wrapper_block_question {
+      display: flex;
+      justify-content: space-between;
+      position: relative; }
+    .question .question_inner .content_question .block_question .plus_question::before {
+      content: '';
+      display: block;
+      height: 22px;
+      width: 3px;
+      left: 714px;
+      bottom: 0px;
+      position: absolute;
+      background-color: #FF941C; }
+    .question .question_inner .content_question .block_question .plus_question::after {
+      content: '';
+      display: block;
+      height: 3px;
+      width: 22px;
+      left: 705px;
+      bottom: 9px;
+      position: absolute;
+      background-color: #FF941C; }
+    .question .question_inner .content_question .block_question .plus_question.ative::before {
+      transform: rotate(90deg); }
+    .question .question_inner .content_question .block_question .text_question_active {
+      font-weight: 300;
+      display: none;
+      font-size: 18px;
+      max-width: 600px;
+      padding-top: 22px; }
+  .question .question_inner .content_question .block_question_active .text_question_active {
+    display: block; }
+
+.footer {
+  margin-top: 80px;
+  background-color: #FF941C; }
+  .footer .footer_inner {
+    display: flex;
+    justify-content: space-between; }
+    .footer .footer_inner .href_btn_call {
+      background-color: #fff;
+      color: #FF941C; }
+    .footer .footer_inner .btn_call {
+      margin-top: 32px; }
+
+.burger_header {
+  display: none; }
+
+@media (max-width: 1410px) {
+  .our_products .our_inner .content_our .block_our {
+    width: 34%; } }
+@media (max-width: 1315px) {
+  .main .main_inner {
+    flex-wrap: wrap; }
+
+  .main .main_inner .right_block_main {
+    padding-top: 50px;
+    padding-left: 100px; }
+
+  .main .main_inner .left_block_main {
+    padding-top: 0px; } }
+@media (max-width: 1190px) {
+  .content_price {
+    flex-wrap: wrap; }
+
+  .block_price {
+    margin-top: 30px; } }
+@media (max-width: 1150px) {
+  .our_products .our_inner .content_our .block_our {
+    width: 46%; } }
+@media (max-width: 900px) {
+  .burger_header {
+    cursor: pointer;
+    position: relative;
+    width: 35px;
+    height: 20px;
+    display: block;
+    top: 25px;
+    z-index: 6; }
+
+  .main .main_inner .right_block_main {
+    padding-top: 100px;
+    padding-left: 0px; }
+
+  .burger_header::before,
+  .burger_header::after {
+    content: '';
+    background-color: #E7742E;
+    height: 4px;
+    position: absolute;
+    width: 100%;
+    border-radius: 6px;
+    transition: all 0.3s;
+    left: 0; }
+
+  .burger_header::before {
+    top: 0; }
+
+  .burger_header::after {
+    bottom: 0; }
+
+  .burger_header span {
+    position: absolute;
+    background-color: #E7742E;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    transition: all 0.3s;
+    border-radius: 6px;
+    top: 8px; }
+
+  .burger_header.active:before {
+    transform: rotate(45deg);
+    top: 9px; }
+
+  body.lock {
+    overflow: hidden; }
+
+  .menu {
+    margin-top: 0px; }
+
+  .menu {
+    top: -100%;
+    position: fixed;
+    top: 0;
+    transition: all 0.3s;
+    left: 0;
+    right: 0;
+    text-align: right;
+    background: #fff;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+    padding: 0px;
+    border-radius: 0px;
+    z-index: 3;
+    display: none;
+    overflow-y: scroll;
+    height: 80vh;
+    width: 100%;
+    padding-top: 50px; }
+
+  .list_menu {
+    text-align: left;
+    flex-direction: column; }
+
+  nav.active {
+    display: block;
+    padding-top: 75px; }
+
+  .burger_header.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px; }
+
+  .burger_header.active:before {
+    transform: rotate(45deg);
+    top: 8px; }
+
+  .burger_header.active span {
+    transform: scale(0); }
+
+  .header .btn_call {
+    display: none; }
+
+  .list_menu {
+    text-align: left; }
+
+  .header .header_inner .list_menu .link_menu .href_link_menu {
+    color: #E7742E;
+    font-size: 28px; }
+
+  .link_menu {
+    padding-top: 30px; } }
+@media (max-width: 850px) {
+  .our_products .our_inner .content_our .block_our {
+    width: 51%; }
+
+  .our_products .our_inner .content_our {
+    justify-content: center; } }
+@media (max-width: 795px) {
+  .price .content_price {
+    justify-content: center; }
+
+  .question .question_inner .content_question .block_question .plus_question::before {
+    left: 620px; }
+
+  .question .question_inner .content_question .block_question .text_question {
+    font-size: 22px; }
+
+  .question .question_inner .content_question .block_question .plus_question::after {
+    left: 611px; } }
+@media (max-width: 700px) {
+  .our_products .our_inner .content_our .block_our {
+    width: 100%;
+    padding: 15px; } }
+@media (max-width: 680px) {
+  .question .question_inner .content_question .block_question .text_question {
+    font-size: 19px; }
+
+  .question .question_inner .content_question .block_question .plus_question::before {
+    left: 524px; }
+
+  .question .question_inner .content_question .block_question .plus_question::after {
+    left: 515px; } }
+@media (max-width: 601px) {
+  .main .main_inner .right_block_main img {
+    width: 100%; } }
+@media (max-width: 580px) {
+  .question .question_inner .content_question .block_question .text_question {
+    max-width: 400px; }
+
+  .question .question_inner .content_question .block_question .plus_question::before {
+    left: 399px;
+    bottom: 18px; }
+
+  .question .question_inner .content_question .block_question .plus_question::after {
+    left: 390px;
+    bottom: 27px; } }
+@media (max-width: 500px) {
+  .main .main_inner .left_block_main .main_title {
+    font-size: 43px; }
+
+  .title {
+    font-size: 33px; }
+
+  .main .main_inner .left_block_main .sub_title_main {
+    font-size: 22px; } }
+@media (max-width: 450px) {
+  .price .content_price .block_price {
+    padding: 30px 40px; }
+
+  .question .question_inner .content_question .block_question .text_question {
+    max-width: 245px; }
+
+  .question .question_inner .content_question .block_question .plus_question::before {
+    left: 275px;
+    bottom: 17px; }
+
+  .question .question_inner .content_question .block_question .plus_question::after {
+    left: 266px;
+    bottom: 26px; } }
+@media (max-width: 400px) {
+  .main .main_inner .left_block_main .main_title {
+    font-size: 37px; } }
+@media (max-width: 340px) {
+  .price .content_price .block_price .href_btn_block_price {
+    font-size: 16px; }
+
+  .price .content_price .block_price .title_number_price {
+    margin-left: 40px; } }
+
+/*# sourceMappingURL=style.css.map */
