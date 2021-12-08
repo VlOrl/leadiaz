@@ -207,6 +207,14 @@
         font-size: 33px;
 
     }
+    .feedback .feedback_inner {
+        border: 1px solid #FF941C;
+        border-radius: 28px;
+        padding: 43px 43px 53px 17px;
+    }
+    input, textarea {
+        width: 320px;
+    }
     .main .main_inner .left_block_main .sub_title_main {
         font-size: 22px;
     }
@@ -231,6 +239,18 @@
     .main .main_inner .left_block_main .main_title {
         font-size: 37px;
     }
+    input, textarea {
+        width: 250px;
+        padding: 14px 0px 14px 21px;
+        font-size: 16px;
+    }
+    .href_btn_feedback {
+        padding: 11px 36px;
+    }
+    .feedback_title {
+        font-size: 22px;
+        color: #FF941C;
+    }
 }
 @media(max-width:340px){
     .price .content_price .block_price .href_btn_block_price {
@@ -239,5 +259,12 @@
     }
     .price .content_price .block_price .title_number_price {
         margin-left: 40px;
+    }
+}
+@media(max-width:320px){
+    input, textarea {
+        width: 229px;
+        padding: 14px 0px 14px 21px;
+        font-size: 16px;
     }
 }

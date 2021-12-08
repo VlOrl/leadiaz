@@ -33,12 +33,14 @@ span{
 .container {
     max-width: 1600px;
     padding-top: 100px;
+
     z-index: 2;
     margin: 0 auto; 
 }
 .feedback{
     display: flex;
     justify-content: center;
+    padding: 20px;
     .feedback_inner{
      border: 1px solid #FF941C;
 
@@ -57,7 +59,7 @@ span{
 .sub_title_feedback{
     padding-top: 15px;
     color: rgba(0, 0, 0, 0.7);
-    width: 430px;
+    max-width: 430px;
 }
 .content_form{
     display: flex;
@@ -122,3 +124,4 @@ textarea:active{
 .btn_feedback{
     margin-top: 36px;
 }
+@import 'adaptive';
